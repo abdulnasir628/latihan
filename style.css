@@ -1,0 +1,14 @@
+body {
+	background-color: yellowgreen;
+	background-image: url("Unt-1.jpeg");
+}
+
+h1 {
+	font-family: "Rampart One", cursive;
+	color: darkblue;
+}
+
+p {
+	text-transform: capitalize;
+    text-indent: 20px;
+}
