@@ -1,11 +1,12 @@
 body {
-	background-color: yellowgreen;
-	background-image: url("Unt-1.jpeg");
+	background-color: lightgrey;
 }
 
 h1 {
-	font-family: "Rampart One", cursive;
+	font-family: "Rampart One", serif;
 	color: darkblue;
+	text-align: center;
+	text-shadow: 5px 5px 8px black;
 }
 
 p {
@@ -13,6 +14,24 @@ p {
     text-indent: 20px;
 }
 
-.satu{
-	color: green;
-}
+.colorlib-social-icons {
+  margin: 0;
+  padding: 0; }
+  .colorlib-social-icons li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline; }
+    .colorlib-social-icons li a {
+      display: -moz-inline-stack;
+      display: inline-block;
+      zoom: 1;
+      *display: inline;
+      color: #000;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .colorlib-social-icons li a i {
+        font-size: 20px; }
