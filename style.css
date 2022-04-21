@@ -1,37 +1,73 @@
 body {
 	background-color: lightgrey;
+  margin: 0px;
 }
-
-h1 {
-	font-family: "Rampart One", serif;
-	color: darkblue;
-	text-align: center;
-	text-shadow: 5px 5px 8px black;
+#img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
-
-p {
-	text-transform: capitalize;
-    text-indent: 20px;
+section {
+  width: 100%;
+  height: 50%;
 }
-
-.colorlib-social-icons {
+header {
+  font-family: "Rampart One", serif;
+  color: darkblue;
+  text-align: center;
+  text-shadow: 0px 2px 3px black;
+}
+.new {
+  display: inherit;
+  justify-content: center;
+  padding: 10px;
+}
+#artikel1 {
+  margin-left: 200px;
+  text-transform: capitalize;
+  text-indent: 20px;
+  width: 900px;
+  padding: 20px;
+  text-align: center;
+}
+#artikel2 {
+  margin-left: 200px;
+  text-transform: capitalize;
+  text-indent: 20px;
+  width: 900px;
+  padding: 20px;
+  text-align: center;
+}
+.contact-social-icons {
+  margin-top: 0;
   margin: 0;
-  padding: 0; }
-  .colorlib-social-icons li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: -moz-inline-stack;
-    display: inline-block;
-    zoom: 1;
-    *display: inline; }
-    .colorlib-social-icons li a {
-      display: -moz-inline-stack;
-      display: inline-block;
-      zoom: 1;
-      *display: inline;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+  font-size: 25px;
+  *display: inline; }
+  .contact-social-icons li{
+  display: inline-block; }
+    .contact-social-icons li a{
       color: #000;
+      padding-right: 10px;
       padding-left: 10px;
-      padding-right: 10px; }
-      .colorlib-social-icons li a i {
-        font-size: 20px; }
+    }
+#tengah {
+  text-align: center;
+}
+#tengah1 {
+  margin-left: 640px;  
+}
+#tengah2 {
+  margin-left: 600px; 
+}
+#tengah3 {
+  margin-left: 350px;
+}
+.footer {
+  text-align: center;
+  background-color: whitesmoke;
+}
