@@ -1,0 +1,30 @@
+body {
+	margin: 0px;
+	/*font-family: "crimson", serif;*/
+	font-family: "roboto slab", serif;
+}
+
+.jumbotron {
+	background-image: url("bg-min.jpg");
+	background-size: cover;
+	height: 500px;
+}
+
+#font {
+	text-shadow: 2px 2px 2px ghostwhite;
+}
+
+.btn-warning {
+	background-color: #ff9900;
+	border-radius: 10px;
+	box-shadow: 0px 2px 2px black !important;
+}
+
+.btn-warning:hover {
+	background-color: #ffaf37;
+}
+
+.footer {
+	line-height: 50px;
+	margin-bottom: 0;
+}
